@@ -1,0 +1,44 @@
+store_location,hour,avg_transactions,is_peak
+Astoria,7,4181,True
+Astoria,8,4966,True
+Astoria,9,5083,True
+Astoria,10,5291,True
+Astoria,11,3413,False
+Astoria,12,3438,False
+Astoria,13,3456,False
+Astoria,14,3319,False
+Astoria,15,3423,False
+Astoria,16,3599,False
+Astoria,17,3402,False
+Astoria,18,3463,False
+Astoria,19,3565,False
+Hell's Kitchen,6,1676,False
+Hell's Kitchen,7,3455,False
+Hell's Kitchen,8,6909,True
+Hell's Kitchen,9,6767,True
+Hell's Kitchen,10,6957,True
+Hell's Kitchen,11,3598,True
+Hell's Kitchen,12,2442,False
+Hell's Kitchen,13,2625,False
+Hell's Kitchen,14,2754,False
+Hell's Kitchen,15,2505,False
+Hell's Kitchen,16,2691,False
+Hell's Kitchen,17,2818,False
+Hell's Kitchen,18,2608,False
+Hell's Kitchen,19,2402,False
+Hell's Kitchen,20,528,False
+Lower Manhattan,6,2918,False
+Lower Manhattan,7,5792,True
+Lower Manhattan,8,5779,True
+Lower Manhattan,9,5914,True
+Lower Manhattan,10,6297,True
+Lower Manhattan,11,2755,False
+Lower Manhattan,12,2828,False
+Lower Manhattan,13,2633,False
+Lower Manhattan,14,2860,False
+Lower Manhattan,15,3051,False
+Lower Manhattan,16,2803,False
+Lower Manhattan,17,2525,False
+Lower Manhattan,18,1427,False
+Lower Manhattan,19,125,False
+Lower Manhattan,20,75,False
