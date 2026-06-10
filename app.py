@@ -17,14 +17,14 @@ st.set_page_config(
 #data load
 @st.cache_data
 def load_data():
-    daily = pd.read_csv(r'C:\Users\hp\afficionado_forecasting\data\daily_features.csv')
+    daily = pd.read_csv(r'data/daily_features.csv')
     daily['date'] = pd.to_datetime(daily['date'])
 
-    models = pd.read_csv(r'C:\Users\hp\afficionado_forecasting\data\model_results.csv')
-    scenarios = pd.read_csv(r'C:\Users\hp\afficionado_forecasting\data\scenarios.csv')
-    peaks = pd.read_csv(r'C:\Users\hp\afficionado_forecasting\data\peak_hours.csv')
+    models = pd.read_csv(r'data/model_results.csv')
+    scenarios = pd.read_csv(r'data/scenarios.csv')
+    peaks = pd.read_csv(r'data/peak_hours.csv')
 
-    raw = pd.read_csv(r'C:\Users\hp\afficionado_forecasting\data\transactions.csv')
+    raw = pd.read_csv(r'data/transactions.csv')
     raw['transaction_time'] = pd.to_datetime(raw['transaction_time'], format='%H:%M:%S')
     raw['hour'] = raw['transaction_time'].dt.hour
     raw['revenue'] = raw['transaction_qty'] * raw['unit_price']

@@ -10,8 +10,6 @@ __pycache__/
 # Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Data files - too large for GitHub
-data/transactions.csv
 
 # OS files
 .DS_Store
